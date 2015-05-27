@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web products developed by Braun, and some other neat stuff.">
+    <meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, angularjs, front-end, frontend, web development, web deployment, aws, amazon, ec2, elastic cloud computing, node, nodejs, express, nginx">
+    <meta name="author" content="Braun Goodson">
+
+    <title>Braun Goodson</title>
+
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .col-md-6 {
+            margin-top:50px;
+        }
+    </style>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Braun</span> Goodson
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">blgse.com</h1>
+                        <p class="intro-text">Web products developed by Braun, and some other neat stuff.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Me</h2>
+                <p>I have a Master of Science in Computer Science degree From <a href="http://bu.edu">Boston University</a>, and a Bachelor of Fine Arts degree from <a href="http://calarts.edu">California Institute of the Arts</a>. I specialize in web deployment and development, qa, and workflows.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>egTransclude</h2>
+                        <p>AngularJS and Bootstrap mashup combined in a tutorial.</p>
+                        <ul class="list-inline">
+                            <li><a href="http://egtransclude.blgse.com" class="btn btn-default btn-lg">Demo</a></li>
+                            <li><a href="https://github.com/braungoodson/egTransclude/releases/tag/v0.4.1" class="btn btn-default btn-lg">Download</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Infinite Reddit</h2>
+                        <p>An example of infinite scrolling mashed with reddit's api.</p>
+                        <ul class="list-inline">
+                            <li><a href="http://infinite-reddit.blgse.com" class="btn btn-default btn-lg">Demo</a></li>
+                            <li><a href="https://github.com/braungoodson/infinite-scrolling-reddit/releases/tag/v0.2.0" class="btn btn-default btn-lg">Download</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Harvard SEAS</h2>
+                        <p>Solution to application problem assigned by internal recruiter.</p>
+                        <ul class="list-inline">
+                            <li><a href="http://harvard.blgse.com" class="btn btn-default btn-lg">Demo</a></li>
+                            <li><a href="https://github.com/braungoodson/afep/releases/tag/v0.2.0" class="btn btn-default btn-lg">Download</a></li>
+                        </ul>                  
+                    </div>
+                    <div class="col-md-6">
+                        <h2>egClock</h2>
+                        <p>Just a basic clock directive with angular.</p>
+                        <ul class="list-inline">
+                            <li><a href="http://egclock.blgse.com" class="btn btn-default btn-lg">Demo</a></li>
+                            <li><a href="https://github.com/braungoodson/egClock/releases/tag/v0.2.0" class="btn btn-default btn-lg">Download</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Me</h2>
+                <p>Feel free to email me with to provide some feedback on my work, give me suggestions for new projects and ideas, or to just say hello!</p>
+                <p><a href="mailto:feedback@startbootstrap.com">braungoodson@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/compiletimelink" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/braungoodson" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p style="font-size:10px;color:grey;">This website is proxied by nginx, and sits on an aws ec2 instance.</p>
+            <p style="font-size:10px;color:grey;">Copyright &copy; blgse.com 2014</p>
+        </div>
+    </footer>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+    <!-- Google Maps API v3 -->
+    <script>
+        function initialize () {
+            var mapOptions = {
+                center: new google.maps.LatLng(42.358548, -71.059560),
+                zoom: 15
+            };
+            var map = new google.maps.Map(document.getElementById("map"),mapOptions);
+            var styles = [
+              {
+                stylers: [
+                  { gamma: 0.29 },
+                  { hue: "#2200ff" },
+                  { saturation: -100 },
+                  { visibility: "on" },
+                  { invert_lightness: true },
+                  { lightness: -4 }
+                ]
+              }
+            ];
+
+            map.setOptions({styles: styles});
+        }
+
+        function loadScript() {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&callback=initialize&key=AIzaSyAEx_H7t4AQWxHWod6BIdnmx-LDnMr1Bd8';
+            document.body.appendChild(script);
+        }
+
+        window.onload = loadScript;
+
+    </script>
+
+</body>
+
+</html>

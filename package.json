@@ -1,0 +1,17 @@
+{
+  "name": "blgse.com",
+  "version": "0.2.2",
+  "description": "source code for blgse.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sudo PORT=30000 ./node_modules/forever/bin/forever start server.js"
+  },
+  "author": "Braun Goodson <braungoodson@gmail.com>",
+  "repository": "https://github.com/braungoodson/blgse.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.2.0",
+    "forever": "^0.11.1"
+  }
+}
