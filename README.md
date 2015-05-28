@@ -1,7 +1,7 @@
-blgse.com
+blgse
 ======
 
-source code for blgse.com
+source code for blgse
 
 usage
 ======
