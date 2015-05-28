@@ -1,11 +1,11 @@
 {
   "name": "blgse.com",
-  "version": "0.2.3",
-  "description": "source code for blgse.com",
+  "version": "0.2.5",
+  "description": "source code for blgse",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "PORT=30000 node server.js"
+    "start": "PORT=9000 node server.js"
   },
   "author": "Braun Goodson <braungoodson@gmail.com>",
   "repository": "https://github.com/braungoodson/blgse",
